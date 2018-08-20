@@ -14,7 +14,7 @@ to extract the features and save as a DataFrame in CSV to be used by Keras-based
 
 For this, make sure that you've configured Spark correctly on your machine. Alternatively, execute this script as a standalone Scala project from Eclipse or IntelliJ IDEA. 
 
-#### Step 2: This is the DEC part in Keras/Python 
+### Step 2: This is the DEC part in Keras/Python 
 Go to https://github.com/rezacsedu/VariationDEC/tree/master/DEC_GenotypeClustering_Keras. Then there are 2 Python scripts and a sample genetic variants featres in csv for the clustering and classification respectively. 
 
 - genome.csv: is the sample genetic variants featres
