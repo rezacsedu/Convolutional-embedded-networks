@@ -1,4 +1,4 @@
-# VariationDEC
+# Recurrent Deep Embedding Networks for Genotype Clustering and Ethnicity Prediction
 The DEC, Spark and H2O implementations of our paper titled "Recurrent Deep Embedding Networks for Genotype Clustering and Ethnicity Prediction". 
 
 Pre-print link: https://arxiv.org/pdf/1805.12218.pdf
@@ -30,4 +30,11 @@ For this, first download the VCF files (containing the variants) and the panel f
 
 For this, make sure that you've configured Spark and Adam (see https://github.com/bigdatagenomics/adam) correctly on your machine. Alternatively, execute this script as a standalone Scala project from Eclipse or IntelliJ IDEA.
 
+## Citation
+@article{karim2018recurrent,
+  title={Recurrent Deep Embedding Networks for Genotype Clustering and Ethnicity Prediction},
+  author={Karim, Md and Cochez, Michael and Beyan, Oya Deniz and Zappa, Achille and Sahay, Ratnesh and Decker, Stefan and Schuhmann, Dietrich-Rebholz and others},
+  journal={arXiv preprint arXiv:1805.12218},
+  year={2018}
+}
 
