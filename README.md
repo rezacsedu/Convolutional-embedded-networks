@@ -31,10 +31,10 @@ For this, first download the VCF files (containing the variants) and the panel f
 For this, make sure that you've configured Spark and Adam (see https://github.com/bigdatagenomics/adam) correctly on your machine. Alternatively, execute this script as a standalone Scala project from Eclipse or IntelliJ IDEA.
 
 ## Citation
-    @inproceedings{Wang2018Deep,
-        title={Deep Reasoning with Knowledge Graph for Social Relationship Understanding},
-        author={Zhouxia Wang, Tianshui Chen, Jimmy Ren, Weihao Yu, Hui Cheng, Liang Lin},
-        booktitle={International Joint Conference on Artificial Intelligence},
+    @inproceedings{karim2018recurrent,
+        title={Recurrent Deep Embedding Networks for Genotype Clustering and Ethnicity Prediction},
+        author={Karim, Md and Cochez, Michael and Beyan, Oya Deniz and Zappa, Achille and Sahay, Ratnesh and Decker, Stefan and Schuhmann, Dietrich-Rebholz and others},
+        booktitle={arXiv preprint arXiv:1805.12218},
         year={2018}
     }
 
