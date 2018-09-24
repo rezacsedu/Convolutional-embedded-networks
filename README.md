@@ -1,4 +1,4 @@
-# How to use this repository? 
+# Why and how to use this repository? 
 This is the code for our paper titled "Recurrent Deep Embedding Networks for Genotype Clustering and Ethnicity Prediction". This papers has been submitted to "Arxiv as pre-print" (link: https://arxiv.org/pdf/1805.12218.pdf). 
 
 This repo will have two different implementations: i) Deep Embedding Networks (DEC) and Recurrent Deep Embedding Networks (CDEC) using ii) , Spark and H2O implementations of our paper titled "Recurrent Deep Embedding Networks for Genotype Clustering and Ethnicity Prediction". Since the journal version submission is ongoing, the CDEC version will be uploaded here too soon. 
