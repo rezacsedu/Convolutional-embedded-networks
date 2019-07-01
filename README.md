@@ -1,5 +1,4 @@
-## Why and how to use this repository? 
-This is the code for our paper titled "Recurrent Deep Embedding Networks for Genotype Clustering and Ethnicity Prediction" and "Recurrent Deep Embedding Networks for Population Scale Clustering and Ancestry Inference". The former is available on "Arxiv as pre-print"(link: https://arxiv.org/pdf/1805.12218.pdf). The later has been submitted to IEEE/ACM Transactions on Computational Biology and Bioinformatics, which is under review. 
+This repository contains the implemnetation of our papers titled "Recurrent Deep Embedding Networks for Genotype Clustering and Ethnicity Prediction" and "Recurrent Deep Embedding Networks for Population Scale Clustering and Ancestry Inference". The former is available on "Arxiv as pre-print"(link: https://arxiv.org/pdf/1805.12218.pdf). The later has been submitted to IEEE/ACM Transactions on Computational Biology and Bioinformatics, which is under review. 
 
 This repo will have two different implementations: i) Deep Embedding Networks(DEC) and Recurrent Deep Embedding Networks(CDEC) using ii) Spark and H2O implementations of our paper titled "Recurrent Deep Embedding Networks for Genotype Clustering and Ethnicity Prediction". 
 
@@ -58,7 +57,7 @@ For this, first download the VCF files (containing the variants) and the panel f
 
 For this, make sure that you've configured Spark and Adam (see https://github.com/bigdatagenomics/adam) correctly on your machine. Alternatively, execute this script as a standalone Scala project from Eclipse or IntelliJ IDEA.
 
-## Citation request
+### Citation request
     @inproceedings{karim2018recurrent,
         title={Recurrent Deep Embedding Networks for Genotype Clustering and Ethnicity Prediction},
         author={Karim, Md and Cochez, Michael and Beyan, Oya Deniz and Zappa, Achille and Sahay, Ratnesh and Decker, Stefan and Schuhmann, Dietrich-Rebholz and others},
@@ -66,5 +65,5 @@ For this, make sure that you've configured Spark and Adam (see https://github.co
         year={2018}
     }
 
-## Contributing
+### Contributing
 For any questions, feel free to open an issue or contact at rezaul.karim@rwth-aachen.de
