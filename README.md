@@ -8,7 +8,7 @@ The proof of the concept of our approach is implemented in Spark, ADAM, and Kera
 Experiments were carried out on a computing cluster having 32 cores, 64-bit Ubuntu 14.04 OS. Software stack consisting of Apache Spark v2.3.0, H2O v3.14.0.1, Sparkling Water v1.2.5, ADAM v0.22.0 and Keras v2.0.9 with TensorFlow backend. We compare approach with the state-of-the-art such as ADMIXTURE and VariationSpark. 
 
 ### CDEC implementation in Python with Keras
-A modified version of Keras based DEC implementation (https://github.com/XifengGuo/DEC-keras) proposed by Ali F. et al. is used in our approach. Network training were carried out on a Nvidia TitanX GPU with CUDA and cuDNN enabled to make the overall pipeline faster. 
+Refer to https://github.com/rezacsedu/Recurrent-Deep-Embedding-Networks/tree/master/CDEC for more details. Network training were carried out on a Nvidia TitanX GPU with CUDA and cuDNN enabled to make the overall pipeline faster. 
 
 #### Step 1: Feature extraction using Scala, Adam, and Spark 
 For this, first, download the VCF files (containing the variants) and the panel file (containing the labels) from ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/. 
@@ -19,11 +19,14 @@ to extract the features and save as a DataFrame in CSV to be used by Keras-based
 For this, make sure that you've configured Spark correctly on your machine. Alternatively, execute this script as a standalone Scala project from Eclipse or IntelliJ IDEA. 
 
 #### Step 2: This is the CDEC part in Keras 
-Go to https://github.com/rezacsedu/VariationDEC/tree/master/DEC_GenotypeClustering_Keras. Then there are 2 Python scripts and a sample genetic variants feature in csv for the clustering and classification respectively. 
+Go to https://github.com/rezacsedu/Recurrent-Deep-Embedding-Networks/tree/master/CDEC. Then there are several Python scripts and a sample genetic variants feature in csv for the clustering and classification, respectively. 
 
 - genome.csv: is the sample genetic variants featres
-- DEC_Genotype_Clustering.py: for the clustering 
-- LSTM_EthnicityPrediction.py: for the classification 
+- customlayers.py: for creating custom clustering layer in Keras 
+- keras_unpooling.py: for performing conv unpooling operation for COnv autoencoder part of the network
+- misc.py: contains the data preparation helper modules
+- network.py: CDEC network creation for the clustering
+- main.py: the main class that encapsulates all the steps. 
 
 #### Instruction
 
